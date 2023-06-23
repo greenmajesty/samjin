@@ -35,7 +35,7 @@ const dispatch = useDispatch()
       <Routes>
 
         <Route
-        path="/samjin" element={
+        path="samjin" element={
           <Container>
             <img src={process.env.PUBLIC_URL + "./images/visual_main_01.jpg"}  alt="/"/>
             <h2>Best 상품</h2>
@@ -62,7 +62,7 @@ const dispatch = useDispatch()
         }
         />
 
-        <Route path='/' element={<div>Home Page</div>} />
+        <Route path='samjin' element={<div>Home Page</div>} />
         <Route path='about' element={<About />}>
           <Route path='info' element={<div>Infomation</div>} />
           <Route path='loca' element={<div>Location</div>} />
